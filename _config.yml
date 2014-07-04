@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+highlighters:     pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Gary Roumanis
+tagline:          'Blog & Portfolio'
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Gary Roumanis'
+  url:            https://garyroumanis.com/

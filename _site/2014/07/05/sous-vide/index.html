@@ -107,7 +107,7 @@
 
 <h3>Temperature Gauge</h3>
 
-<p>Initially I wanted to make a completely custom made temperature gauge using a thermistor and <a href="http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation">Steinhart-Hart&#39;s equation</a>. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gague was very simple.</p>
+<p>Initially I wanted to make a completely custom made temperature gauge using a thermistor and <a href="http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation">Steinhart-Hart&#39;s equation</a>. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gauge was very simple.</p>
 
 <h3>Slow Cooker</h3>
 
@@ -136,7 +136,7 @@
 
 <h3>Code</h3>
 
-<p>The code is very straightforward. I&#39;m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of pulling for the temperature is quite computationally expensive. Unfortunately, I&#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
+<p>The code is very straightforward. I&#39;m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I&#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
 
 <div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;Timer.h&gt;</span>
 <span class="cp">#include &lt;LiquidCrystal.h&gt;</span>

@@ -4,7 +4,7 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-07-05T21:33:22-07:00</updated>
+ <updated>2014-07-06T10:27:57-07:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
@@ -31,7 +31,7 @@
 
 &lt;h3&gt;Temperature Gauge&lt;/h3&gt;
 
-&lt;p&gt;Initially I wanted to make a completely custom made temperature gauge using a thermistor and &lt;a href=&quot;http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation&quot;&gt;Steinhart-Hart&amp;#39;s equation&lt;/a&gt;. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gague was very simple.&lt;/p&gt;
+&lt;p&gt;Initially I wanted to make a completely custom made temperature gauge using a thermistor and &lt;a href=&quot;http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation&quot;&gt;Steinhart-Hart&amp;#39;s equation&lt;/a&gt;. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gauge was very simple.&lt;/p&gt;
 
 &lt;h3&gt;Slow Cooker&lt;/h3&gt;
 
@@ -60,7 +60,7 @@
 
 &lt;h3&gt;Code&lt;/h3&gt;
 
-&lt;p&gt;The code is very straightforward. I&amp;#39;m leveraging this &lt;a href=&quot;https://github.com/JChristensen/Timer&quot;&gt;Timer&lt;/a&gt; library along with this &lt;a href=&quot;https://www.pjrc.com/teensy/td_libs_OneWire.html&quot;&gt;OneWire&lt;/a&gt; library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of pulling for the temperature is quite computationally expensive. Unfortunately, I&amp;#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.&lt;/p&gt;
+&lt;p&gt;The code is very straightforward. I&amp;#39;m leveraging this &lt;a href=&quot;https://github.com/JChristensen/Timer&quot;&gt;Timer&lt;/a&gt; library along with this &lt;a href=&quot;https://www.pjrc.com/teensy/td_libs_OneWire.html&quot;&gt;OneWire&lt;/a&gt; library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I&amp;#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;Timer.h&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;LiquidCrystal.h&amp;gt;&lt;/span&gt;

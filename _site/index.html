@@ -105,46 +105,46 @@
 
 <p>The idea of making a sous-vide cooker with an Arduino is not a new. In fact there are a number of fantastic tutorials that can easily be found with a quick search. With that in mind, I will simply discuss some of my unique decisions in the process of making the device.</p>
 
-<h3 id="relay">Relay</h3>
+<h3>Relay</h3>
 
-<p>I chose to go with a pre-made relay because I’ll be the first to admit that I do not know much about electronics. I decided it is best to try and limit the chance of shock while I’m still learning. Unfortunately, the most popular AC power switch, PowerSwitch Tail II, was on backorder from all major retailers and took several weeks to ship. The demand is understandable though as it makes controlling household items dead simple.</p>
+<p>I chose to go with a pre-made relay because I&#39;ll be the first to admit that I do not know much about electronics. I decided it is best to try and limit the chance of shock while I&#39;m still learning. Unfortunately, the most popular AC power switch, PowerSwitch Tail II, was on backorder from all major retailers and took several weeks to ship. The demand is understandable though as it makes controlling household items dead simple.</p>
 
-<h3 id="input">Input</h3>
+<h3>Input</h3>
 
 <p>I did not want to upload new code each time I wanted to make use of the device. Thus hardcoding the desired temperature was out of the question. Instead I added a simple potentiometer which was used to select a cooking temperature from 0 - 99 degrees Celsius.</p>
 
-<h3 id="temperature-gauge">Temperature Gauge</h3>
+<h3>Temperature Gauge</h3>
 
-<p>Initially I wanted to make a completely custom made temperature gauge using a thermistor and <a href="http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation">Steinhart-Hart’s equation</a>. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gauge was very simple.</p>
+<p>Initially I wanted to make a completely custom made temperature gauge using a thermistor and <a href="http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation">Steinhart-Hart&#39;s equation</a>. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gauge was very simple.</p>
 
-<h3 id="slow-cooker">Slow Cooker</h3>
+<h3>Slow Cooker</h3>
 
-<p>I wanted a barebones slow-cooker for both price and ease of use. I found a 3 quart slow cooker for only $20 on Amazon. The benefit of such a small cooker is that you don’t have to worry about fluctuations of temperature within the sous-vide water bath. Most professional sous-vide cookers prevent this issue by integrating a small water jet.</p>
+<p>I wanted a barebones slow-cooker for both price and ease of use. I found a 3 quart slow cooker for only $20 on Amazon. The benefit of such a small cooker is that you don&#39;t have to worry about fluctuations of temperature within the sous-vide water bath. Most professional sous-vide cookers prevent this issue by integrating a small water jet.</p>
 
-<h3 id="completed-device">Completed Device</h3>
+<h3>Completed Device</h3>
 
-<p><img src="/public/images/sous-vide-1.jpg" alt="completed sous-vide cooker 1" />
-<img src="/public/images/sous-vide-2.jpg" alt="completed sous-vide cooker 2" /></p>
+<p><img src="/public/images/sous-vide-1.jpg" alt="completed sous-vide cooker 1">
+<img src="/public/images/sous-vide-2.jpg" alt="completed sous-vide cooker 2"></p>
 
-<h3 id="materials">Materials</h3>
+<h3>Materials</h3>
 
 <ul>
-  <li>Arduino Uno</li>
-  <li>Various hookup wires</li>
-  <li>LCD Display</li>
-  <li>Potentiometer x 2</li>
-  <li>9v Battery</li>
-  <li>Breadboard x 2</li>
-  <li>Project Box</li>
-  <li><a href="http://www.amazon.com/Crock-Pot-SCR300SS-3-Quart-Manual-Stainless/dp/B003UCG8II/ref=sr_1_3?ie=UTF8&amp;qid=1404616855&amp;sr=8-3&amp;keywords=crockpot">Simple Crock-Pot</a></li>
-  <li><a href="https://www.adafruit.com/products/381">DS18B20 Digital Temperature Sensor</a></li>
-  <li><a href="https://www.sparkfun.com/products/10747">PowerSwitch Tail II</a></li>
-  <li><a href="http://www.amazon.com/Ziploc-Vacuum-Starter-3-Quart-1-Pump/dp/B003UEMFUG/ref=sr_1_1?ie=UTF8&amp;qid=1404617144&amp;sr=8-1&amp;keywords=Ziploc+Vacuum+Starter+Kit">Ziploc Vacuum Starter Kit</a></li>
+<li>Arduino Uno</li>
+<li>Various hookup wires</li>
+<li>LCD Display</li>
+<li>Potentiometer x 2</li>
+<li>9v Battery</li>
+<li>Breadboard x 2</li>
+<li>Project Box</li>
+<li><a href="http://www.amazon.com/Crock-Pot-SCR300SS-3-Quart-Manual-Stainless/dp/B003UCG8II/ref=sr_1_3?ie=UTF8&qid=1404616855&sr=8-3&keywords=crockpot">Simple Crock-Pot</a></li>
+<li><a href="https://www.adafruit.com/products/381">DS18B20 Digital Temperature Sensor</a></li>
+<li><a href="https://www.sparkfun.com/products/10747">PowerSwitch Tail II</a></li>
+<li><a href="http://www.amazon.com/Ziploc-Vacuum-Starter-3-Quart-1-Pump/dp/B003UEMFUG/ref=sr_1_1?ie=UTF8&qid=1404617144&sr=8-1&keywords=Ziploc+Vacuum+Starter+Kit">Ziploc Vacuum Starter Kit</a></li>
 </ul>
 
-<h3 id="code">Code</h3>
+<h3>Code</h3>
 
-<p>The code is very straightforward. I’m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I’m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
+<p>The code is very straightforward. I&#39;m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I&#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
 
 <div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;Timer.h&gt;</span>
 <span class="cp">#include &lt;LiquidCrystal.h&gt;</span>

@@ -138,7 +138,7 @@
 
 <p>The code is very straightforward. I&#39;m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I&#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cp">#include &lt;Timer.h&gt;</span>
+<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cp">#include &lt;Timer.h&gt;</span>
 <span class="cp">#include &lt;LiquidCrystal.h&gt;</span>
 <span class="cp">#include &lt;OneWire.h&gt;</span>
 <span class="cp">#include &lt;DallasTemperature.h&gt;</span>

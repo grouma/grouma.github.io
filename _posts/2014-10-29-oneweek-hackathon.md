@@ -2,6 +2,7 @@
 layout: post
 title: //Oneweek Hackathon
 comments: true
+summary: Winning the Microsoft Hackathon by creating an eye controlled wheelchair.
 ---
 
 A couple months ago I competed in //Oneweek, the first-ever Microsoft company wide Hackathon. The week was kicked off by a company forum where leadership set priorities for the year, followed by two-days of pizza and coffee filled hacking. The fun ended in a two day Product Fair where all hacks were shared and voted upon. I was fortunate enough to work on the Eye Gaze Wheelchair hack which not only won the Tech for Good award, but also won the overall Hackathon.

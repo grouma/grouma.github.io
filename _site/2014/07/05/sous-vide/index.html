@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Homemade Sous-Vide Cooker &middot; Gary Roumanis
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/lanyon.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  
+  <div class="sidebar-item">
+    <p>Gary Roumanis -</br>Software Development Engineer, Microsoft.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+   
+    <a class="sidebar-nav-item" href="/public/resume.pdf">Resume</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <center><a href="mailto:me@garyroumanis.com">Email</a> · <a href="https://www.linkedin.com/in/garyroumanis">LinkedIn</a></center>
+  </div>
+
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">Gary Roumanis</a>
+            <small>Blog & Portfolio</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Homemade Sous-Vide Cooker</h1>
+  <span class="post-date">05 Jul 2014</span>
+  <p>I stumbled across the <a href="http://en.wikipedia.org/wiki/Sous-vide">sous-vide</a> method while browsing <a href="http://www.reddit.com/r/cooking">/r/cooking</a>. I was immediately intrigued by the novel concept but did not want to shell out a large sum of money for an unproven device. Thankfully, I had a spare Arduino and was looking for another side project to hack on.</p>
+
+<p>The idea of making a sous-vide cooker with an Arduino is not a new. In fact there are a number of fantastic tutorials that can easily be found with a quick search. With that in mind, I will simply discuss some of my unique decisions in the process of making the device.</p>
+
+<h3>Relay</h3>
+
+<p>I chose to go with a pre-made relay because I&#39;ll be the first to admit that I do not know much about electronics. I decided it is best to try and limit the chance of shock while I&#39;m still learning. Unfortunately, the most popular AC power switch, PowerSwitch Tail II, was on backorder from all major retailers and took several weeks to ship. The demand is understandable though as it makes controlling household items dead simple.</p>
+
+<h3>Input</h3>
+
+<p>I did not want to upload new code each time I wanted to make use of the device. Thus hardcoding the desired temperature was out of the question. Instead I added a simple potentiometer which was used to select a cooking temperature from 0 - 99 degrees Celsius.</p>
+
+<h3>Temperature Gauge</h3>
+
+<p>Initially I wanted to make a completely custom made temperature gauge using a thermistor and <a href="http://en.wikipedia.org/wiki/Steinhart%E2%80%93Hart_equation">Steinhart-Hart&#39;s equation</a>. Getting accurate readings with this method was very easy but making the gauge waterproof proved futile with my terrible handiwork. Out of frustration I opted to go with a pre-made digital temperature sensor. Setting up the gauge was very simple.</p>
+
+<h3>Slow Cooker</h3>
+
+<p>I wanted a barebones slow-cooker for both price and ease of use. I found a 3 quart slow cooker for only $20 on Amazon. The benefit of such a small cooker is that you don&#39;t have to worry about fluctuations of temperature within the sous-vide water bath. Most professional sous-vide cookers prevent this issue by integrating a small water jet.</p>
+
+<h3>Completed Device</h3>
+
+<p><img src="/public/images/sous-vide-1.jpg" alt="completed sous-vide cooker 1">
+<img src="/public/images/sous-vide-2.jpg" alt="completed sous-vide cooker 2"></p>
+
+<h3>Materials</h3>
+
+<ul>
+<li>Arduino Uno</li>
+<li>Various hookup wires</li>
+<li>LCD Display</li>
+<li>Potentiometer x 2</li>
+<li>9v Battery</li>
+<li>Breadboard x 2</li>
+<li>Project Box</li>
+<li><a href="http://www.amazon.com/Crock-Pot-SCR300SS-3-Quart-Manual-Stainless/dp/B003UCG8II/ref=sr_1_3?ie=UTF8&qid=1404616855&sr=8-3&keywords=crockpot">Simple Crock-Pot</a></li>
+<li><a href="https://www.adafruit.com/products/381">DS18B20 Digital Temperature Sensor</a></li>
+<li><a href="https://www.sparkfun.com/products/10747">PowerSwitch Tail II</a></li>
+<li><a href="http://www.amazon.com/Ziploc-Vacuum-Starter-3-Quart-1-Pump/dp/B003UEMFUG/ref=sr_1_1?ie=UTF8&qid=1404617144&sr=8-1&keywords=Ziploc+Vacuum+Starter+Kit">Ziploc Vacuum Starter Kit</a></li>
+</ul>
+
+<h3>Code</h3>
+
+<p>The code is very straightforward. I&#39;m leveraging this <a href="https://github.com/JChristensen/Timer">Timer</a> library along with this <a href="https://www.pjrc.com/teensy/td_libs_OneWire.html">OneWire</a> library for controlling the digital temperature gauge. One interesting fact is that I read the temperature every 10 seconds. This is because the act of polling for the temperature is quite computationally expensive. Unfortunately, I&#39;m not sure exactly why as I did not dig into the library. Regardless, I did not like the noticeable input lag when I was using the potentiometer to set the desired cooking temperature.</p>
+
+<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cp">#include &lt;Timer.h&gt;</span>
+<span class="cp">#include &lt;LiquidCrystal.h&gt;</span>
+<span class="cp">#include &lt;OneWire.h&gt;</span>
+<span class="cp">#include &lt;DallasTemperature.h&gt;</span>
+
+<span class="c1">// Define the input pin for the potentiometer that will set desired temperature</span>
+<span class="cp">#define INPUT_PIN 5</span>
+<span class="c1">// Define One Wire data pin</span>
+<span class="cp">#define ONE_WIRE_BUS 13</span>
+<span class="c1">// Define Pin used to control Powerswitch</span>
+<span class="cp">#define POWERSWITCH_PIN A0</span>
+
+
+<span class="c1">// Setup a One Wire instance to communicate with DS18B20</span>
+<span class="n">OneWire</span> <span class="nf">oneWire</span><span class="p">(</span><span class="n">ONE_WIRE_BUS</span><span class="p">);</span>
+<span class="n">DallasTemperature</span> <span class="nf">sensors</span><span class="p">(</span><span class="o">&amp;</span><span class="n">oneWire</span><span class="p">);</span>
+
+<span class="c1">// Initialize the library with the numbers of the interface pins</span>
+<span class="n">LiquidCrystal</span> <span class="nf">lcd</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+
+<span class="n">Timer</span> <span class="n">timer</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">currentTemp</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">previousTemp</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">previousDesiredTemp</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+  
+  <span class="c1">// Set up the LCD&#39;s number of columns and rows: </span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">16</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Current temp: &quot;</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
+  <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Desired temp: &quot;</span><span class="p">);</span>
+  
+  <span class="c1">// Set powerswitch pin to output</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">POWERSWITCH_PIN</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+
+  <span class="c1">// Set up DS18B20</span>
+  <span class="n">sensors</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span>
+ 
+  <span class="n">getCurrentTemperature</span><span class="p">();</span>
+  <span class="c1">// Read termperature every 10 seconds</span>
+  <span class="c1">// This reduces input lag when setting desired temperature</span>
+  <span class="n">timer</span><span class="p">.</span><span class="n">every</span><span class="p">(</span><span class="mi">10000</span><span class="p">,</span> <span class="n">getCurrentTemperature</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">getCurrentTemperature</span><span class="p">()</span>
+<span class="p">{</span>
+  <span class="n">sensors</span><span class="p">.</span><span class="n">requestTemperatures</span><span class="p">();</span>
+  <span class="c1">// Only one sensor is attached</span>
+  <span class="n">currentTemp</span> <span class="o">=</span> <span class="n">sensors</span><span class="p">.</span><span class="n">getTempCByIndex</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+  
+  <span class="n">timer</span><span class="p">.</span><span class="n">update</span><span class="p">();</span>
+  
+  <span class="c1">// Only update screen when necessary to avoid flashing</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">currentTemp</span> <span class="o">!=</span> <span class="n">previousTemp</span><span class="p">){</span>
+    <span class="n">previousTemp</span> <span class="o">=</span> <span class="n">currentTemp</span><span class="p">;</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;  &quot;</span><span class="p">);</span> <span class="c1">// Clear current number</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">String</span><span class="p">(</span><span class="n">currentTemp</span><span class="p">));</span>
+  <span class="p">}</span>
+  
+  <span class="c1">// Read desired temperature and convert to value between 0 - 99</span>
+  <span class="kt">int</span> <span class="n">desiredTemp</span> <span class="o">=</span> <span class="n">floor</span><span class="p">((</span><span class="n">analogRead</span><span class="p">(</span><span class="n">INPUT_PIN</span><span class="p">)</span><span class="o">/</span><span class="mf">1024.0</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">);</span>
+  
+  <span class="c1">// Again only update screen when necessary to avoid flashing</span>
+  <span class="k">if</span><span class="p">(</span><span class="n">desiredTemp</span> <span class="o">!=</span> <span class="n">previousDesiredTemp</span><span class="p">){</span>
+    <span class="n">previousDesiredTemp</span> <span class="o">=</span> <span class="n">desiredTemp</span><span class="p">;</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;  &quot;</span><span class="p">);</span> <span class="c1">// Clear current number</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">setCursor</span><span class="p">(</span><span class="mi">14</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+    <span class="n">lcd</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">String</span><span class="p">(</span><span class="n">desiredTemp</span><span class="p">));</span>
+  <span class="p">}</span>
+  
+  <span class="k">if</span><span class="p">(</span><span class="n">desiredTemp</span> <span class="o">&gt;</span> <span class="n">currentTemp</span><span class="p">){</span>
+    <span class="c1">// Turn crock pot on</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">POWERSWITCH_PIN</span><span class="p">,</span> <span class="n">LOW</span><span class="p">);</span>
+  <span class="p">}</span><span class="k">else</span><span class="p">{</span>
+    <span class="c1">// Turn crock pot off</span>
+    <span class="n">digitalWrite</span><span class="p">(</span><span class="n">POWERSWITCH_PIN</span><span class="p">,</span> <span class="n">HIGH</span><span class="p">);</span>
+  <span class="p">}</span>
+  
+<span class="p">}</span></code></pre></div>
+
+</div>
+
+        
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'grouma'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+      </div>
+      
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

@@ -4,7 +4,7 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-10-31T01:32:49-07:00</updated>
+ <updated>2014-10-31T09:52:57-07:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
@@ -75,9 +75,11 @@
 
 &lt;p&gt;Quite miraculously, the first person to ever use the completed device was former football star Steve Gleason. He has been living with amyotrophic lateral sclerosis (ALS) which I&amp;#39;m sure you are all too familiar with thanks to the Ice Bucket Challenge. Steve was the initial inspiration for the project. He traveled from New Orleans, where he lives, to the Microsoft campus specifically to work with our hack team. I have never been more satisfied and proud then standing over Steve&amp;#39;s shoulder and watching the wheelchair spring to life with the movement of his gaze. Check it out in action below.&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;
+&lt;div class=&quot;video&quot;&gt;
+&lt;figure&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/uAtErSwfmAc&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/center&gt;&lt;/p&gt;
+&lt;/figure&gt;
+&lt;/div&gt;
 </content>
  </entry>
  

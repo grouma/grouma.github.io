@@ -88,9 +88,9 @@ Essentially the script determines which hex codes are missing from an NEC mappin
 
 ### Device and App
 
-![remote close up](/public/images/remote-1.jpg)
-![remote and tv](/public/images/remote-2.jpg)
-![app](/public/images/remote-3.png)
+![remote close up](/public/images/remote-1.JPG)
+![remote and tv](/public/images/remote-2.JPG)
+![app](/public/images/remote-3.PNG)
 
 ### Code
 

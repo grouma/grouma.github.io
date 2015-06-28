@@ -4,7 +4,7 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-03-15T20:35:09-07:00</updated>
+ <updated>2015-06-28T00:47:13+00:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>IoT Remote</title>
    <link href="/2015/03/15/TVRemote-app/"/>
-   <updated>2015-03-15T00:00:00-07:00</updated>
+   <updated>2015-03-15T00:00:00+00:00</updated>
    <id>/2015/03/15/TVRemote-app</id>
    <content type="html">&lt;p&gt;I don&amp;#39;t subscribe to cable and get most of my video content from Netflix, Hulu and YouTube which is consumed through an Apple TV or Chromecast. This means I can mostly control my TV from my phone, which is always by my side. Unfortunately, changing the input, volume or powering on my TV means I have to use the provided remote. This is a massive pain because I&amp;#39;m constantly losing the device. I end up tearing my living room apart to often find it left in the bathroom or some other random location. After the umpteenth time I decided I was going to do something about it. The solution I came up with was a simple iOS application paired with an Internet connected micro-controller.&lt;/p&gt;
 
@@ -98,9 +98,9 @@
 
 &lt;h3&gt;Device and App&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&quot;/public/images/remote-1.jpg&quot; alt=&quot;remote close up&quot;&gt;
-&lt;img src=&quot;/public/images/remote-2.jpg&quot; alt=&quot;remote and tv&quot;&gt;
-&lt;img src=&quot;/public/images/remote-3.png&quot; alt=&quot;app&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/public/images/remote-1.JPG&quot; alt=&quot;remote close up&quot;&gt;
+&lt;img src=&quot;/public/images/remote-2.JPG&quot; alt=&quot;remote and tv&quot;&gt;
+&lt;img src=&quot;/public/images/remote-3.PNG&quot; alt=&quot;app&quot;&gt;&lt;/p&gt;
 
 &lt;h3&gt;Code&lt;/h3&gt;
 
@@ -115,7 +115,7 @@
  <entry>
    <title>//Oneweek Hackathon</title>
    <link href="/2014/10/29/oneweek-hackathon/"/>
-   <updated>2014-10-29T00:00:00-07:00</updated>
+   <updated>2014-10-29T00:00:00+00:00</updated>
    <id>/2014/10/29/oneweek-hackathon</id>
    <content type="html">&lt;p&gt;A couple months ago I competed in //Oneweek, the first-ever Microsoft company wide Hackathon. The week was kicked off by a company forum where leadership set priorities for the year, followed by two-days of pizza and coffee filled hacking. The fun ended in a two day Product Fair where all hacks were shared and voted upon. I was fortunate enough to work on the Eye Gaze Wheelchair hack which not only won the Tech for Good award, but also won the overall Hackathon.&lt;/p&gt;
 
@@ -186,7 +186,7 @@
  <entry>
    <title>Homemade Sous-Vide Cooker</title>
    <link href="/2014/07/05/sous-vide/"/>
-   <updated>2014-07-05T00:00:00-07:00</updated>
+   <updated>2014-07-05T00:00:00+00:00</updated>
    <id>/2014/07/05/sous-vide</id>
    <content type="html">&lt;p&gt;I stumbled across the &lt;a href=&quot;http://en.wikipedia.org/wiki/Sous-vide&quot;&gt;sous-vide&lt;/a&gt; method while browsing &lt;a href=&quot;http://www.reddit.com/r/cooking&quot;&gt;/r/cooking&lt;/a&gt;. I was immediately intrigued by the novel concept but did not want to shell out a large sum of money for an unproven device. Thankfully, I had a spare Arduino and was looking for another side project to hack on.&lt;/p&gt;
 

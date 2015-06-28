@@ -15,4 +15,6 @@ With the aid of McGill and the Natural Sciences and Engineering Research Council
 
 I graduated from McGill University in the spring of 2012 with a joint honours degree in Mathematics and Computer Science. Before joining the tech industry, I completed research in computational mathematics. I adapted the synchronous <a href="http://cgm.cs.mcgill.ca/~avis/C/lrs.html">reverse search algorithm</a> for vertex enumeration/convex hull problems to take advantage of multiple processors/cores. I presented this research at the International Conference on <a href="http://www.cocoa2013.org/">Combinatorial Optimization and Applications</a>.
 
-I currently live in Seattle and work for Microsoft. I initially began work as a Program Manager in Business Intelligence in October of 2012. I have since switched roles to a Software Development Engineer in Data Acquisition. I have the pleasure of working with some incredible open source technology to tackle facinating and challenging problems.
+Following graduation I took full time employment with Microsoft. I initially began in the Program Management dicipline but became a Software Development Engineer not long after. Durring my tenure at Microsoft I worked entirely in the Bing Ads stack.
+
+I currently live in Seattle and work for Google. I have the pleasure of working with some incredible open source technology to tackle facinating and challenging problems.

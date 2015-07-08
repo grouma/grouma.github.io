@@ -4,13 +4,64 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-06-27T17:55:46-07:00</updated>
+ <updated>2015-07-07T20:52:54-07:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Duplicator I3</title>
+   <link href="/2015/07/07/duplicator-i3/"/>
+   <updated>2015-07-07T00:00:00-07:00</updated>
+   <id>/2015/07/07/duplicator-i3</id>
+   <content type="html">&lt;h3&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Although I have been researching 3d printers for some time, I have been too apprehensive to purchase one. The overwhelming amount of choice and the non-trivial cost made it very difficult to select a model. Moreover, not knowing what features were absolutely critical to a pleasant printing experience made the task absolutely daunting. That&amp;#39;s why when I stumbled across the &lt;a href=&quot;http://wanhaousa.com/products/duplicator-i3-steel-frame&quot;&gt;Duplicator i3&lt;/a&gt;, which has a laundry list of features, at an absolutely insane price of $375 (shipped!) I couldn&amp;#39;t say no.&lt;/p&gt;
+
+&lt;h3&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Heated print bed&lt;/li&gt;
+&lt;li&gt;Large print area: 200mm x 200mm x 180mm&lt;/li&gt;
+&lt;li&gt;Sturdy steel construction&lt;/li&gt;
+&lt;li&gt;Compatible with many filaments: PLA, ABS, PVA etc.&lt;/li&gt;
+&lt;li&gt;100 micron layer capability&lt;/li&gt;
+&lt;li&gt;Open design&lt;/li&gt;
+&lt;li&gt;File printing&lt;/li&gt;
+&lt;li&gt;Includes flash card, USB cable and putty scraper&lt;/li&gt;
+&lt;li&gt;Assembled&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Delivery&lt;/h3&gt;
+
+&lt;p&gt;I have been following the Duplicator I3 &lt;a href=&quot;https://groups.google.com/forum/#!forum/wanhao-printer-3d&quot;&gt;forums&lt;/a&gt; and unfortunately the first batch of printers had a lot of issues. Folks were complaining about devices being damaged beyond repair during shipment. This was such an issue that the manufacturer, Wanhao, had to delay printers to revise the packaging. I must commend them though as they quickly resolved the issue and only introduced a week&amp;#39;s delay in shipping time. Since I purchased my printer on the last day of the presale, I lucked out and received a printer with revised packaging. Besides some minor cosmetic scratches to the print bed, my device was received in perfect working order.&lt;/p&gt;
+
+&lt;h3&gt;Setup&lt;/h3&gt;
+
+&lt;p&gt;The printer is advertised as being assembled, however there is some minor setup required by the end user. I was able to setup the printer in about 15 minutes without instructions. Note that there are instructions on the provided flash card, something I was not aware of. I recommend looking at them as I made the silly error of connecting the x-axis cable to the z-axis motor. Luckily I corrected the mistake before any serious damage could be done.&lt;/p&gt;
+
+&lt;p&gt;One major feature missing on this printer is a z-probe which allows for automated bed leving through software. Since this printer does not have one, you must manually level by tightening or loosening screws on the four corners of the print bed. Speaking as a novice, this process is a bitch. I watched several YouTube videos describing the leveling process but in the end I had to do a lot of trial and error to get the correct adjustment.&lt;/p&gt;
+
+&lt;h3&gt;Print Quality&lt;/h3&gt;
+
+&lt;p&gt;The first object I printed was the provided hand model on the included flash drive. This model came presliced with what I assumed optimized settings for the Duplicator I3. I was in a rush to get the printer started so I hastily leveled the bed, which in hindsight was way too close. Regardless I think the print turned out fantastic as you can see below.
+&lt;img src=&quot;/public/images/hand.JPG&quot; alt=&quot;ok&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Since printing the provided sample, I have been in the process of optimizing my slicer settings. I was initially using &lt;a href=&quot;https://ultimaker.com/en/products/cura-software&quot;&gt;Cura&lt;/a&gt; directly. I have since switched to using &lt;a href=&quot;https://www.astroprint.com/dashboard&quot;&gt;Astroprint&lt;/a&gt; which provides free online slicing. It has fantastic defaults and has resulted in some great prints. See the Octopus print below.
+&lt;img src=&quot;/public/images/octopus.JPG&quot; alt=&quot;octopus&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Overall I&amp;#39;m blown away by the print quality, without even considering the price. I look forward to dialing in the settings and printing custom parts. As for creating models, I have been using &lt;a href=&quot;http://www.openscad.org/&quot;&gt;OpenSCAD&lt;/a&gt; which I highly recommend.&lt;/p&gt;
+
+&lt;h3&gt;Future Modifications&lt;/h3&gt;
+
+&lt;p&gt;My employer, Google in Seattle, has a dedicated maker space with several printers. One of their printers has a Borosilicate glass print bed. This allows the user to forgo the standard practice of covering the print bed with blue painter&amp;#39;s tape. This of course makes for an easier setup and cleaning, but also results in better print quality as the printed object will have a perfectly smooth base. I plan on adding a sheet of this glass to my print bed as well.&lt;/p&gt;
+
+&lt;p&gt;The Duplicator I3 has the capability of printing from a flash drive, which is great as printing does occupy your computer. However, monitoring your print requires you to be directly in front of the device. I plan on purchasing a Raspberry Pi and modifying the printer to use &lt;a href=&quot;http://octoprint.org/&quot;&gt;Octoprint&lt;/a&gt;. This will allow me to initiate prints and monitor them remotely.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>IoT Remote</title>

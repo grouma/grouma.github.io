@@ -4,7 +4,7 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-07-07T22:58:30-07:00</updated>
+ <updated>2015-07-08T19:18:21-07:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
@@ -60,6 +60,12 @@
 &lt;p&gt;My employer, Google in Seattle, has a dedicated maker space with several printers. One of their printers has a Borosilicate glass print bed. This allows the user to forgo the standard practice of covering the print bed with blue painter&amp;#39;s tape. This of course makes for an easier setup and cleaning, but also results in better print quality as the printed object will have a perfectly smooth base. I plan on adding a sheet of this glass to my print bed as well.&lt;/p&gt;
 
 &lt;p&gt;The Duplicator I3 has the capability of printing from a flash drive, which is great as printing does occupy your computer. However, monitoring your print requires you to be directly in front of the device. I plan on purchasing a Raspberry Pi and modifying the printer to use &lt;a href=&quot;http://octoprint.org/&quot;&gt;Octoprint&lt;/a&gt;. This will allow me to initiate prints and monitor them remotely.&lt;/p&gt;
+
+&lt;h3&gt;Print Video&lt;/h3&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/4xLoE6kzSb/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Starting to get things calibrated nicely. #3dprinting #octopus for @amadera711&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A video posted by Gary Roumanis (@grouma) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-07-05T20:49:28+00:00&quot;&gt;Jul 5, 2015 at 1:49pm PDT&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
+
+&lt;script async defer src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;
 </content>
  </entry>
  

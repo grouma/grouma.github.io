@@ -4,13 +4,96 @@
  <title>Gary Roumanis</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2015-07-08T19:18:21-07:00</updated>
+ <updated>2015-07-09T20:31:21-07:00</updated>
  <id></id>
  <author>
    <name>Gary Roumanis</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Chromebook Pixel (2015)</title>
+   <link href="/2015/07/09/chromebook-pixel/"/>
+   <updated>2015-07-09T00:00:00-07:00</updated>
+   <id>/2015/07/09/chromebook-pixel</id>
+   <content type="html">&lt;h2&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;In my opinion the greatest device Apple has created to date, is their Macbook Air. I was a proud owner of a 13&amp;quot; MBA and used it for entertainment, learning and development. However, as the device aged, and the new models lacked features I wanted, I started looking elsewhere for a replacement. I decided to go with the unorthodox Chromebook Pixel LS. Unlike the MBA, the Pixel takes quite a bit more setup to become productive. This extra work ultimately leads to a more enjoyable experience. This post will outline the setup and tools I use on the Pixel to be productive and happy.&lt;/p&gt;
+
+&lt;h2&gt;Apps&lt;/h2&gt;
+
+&lt;p&gt;Obviously with a Chromebook you have access to the entire web and thus tons of awesome productivity websites. I won&amp;#39;t list my favourite sites here, but instead list a couple Chrome specific apps.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/caret/fljalecfjciodhpcledpamjachpmelml?hl=en&quot;&gt;Caret&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Caret is a fantastic little text editor that is based off of &lt;a href&quot;https://github.com/ajaxorg/ace&quot;&gt;ace&lt;/a&gt;. It can be run completely offline and has syntax highlighting for tons of languages. My favorite feature is that it has a built in VIM mode for key bindings.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/3dview/hhngciknjebkeffhafnaodkfidcdlcao?hl=en&quot;&gt;3dview&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;3DView is an easy to use application for viewing 3d models in various file formats. I use it to quickly inspect STL downloads from Thingiverse.&lt;/p&gt;
+
+&lt;h4&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/videostream-for-google-ch/cnciopoikihiagdjbjpnocolokfelagl?hl=en&quot;&gt;Videostream&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;I used to use Beamer, a fantastic streaming app for OS X. These days most of my streaming content is viewed through a Chromecast. Videostream allows you to cast your own local videos in almost any format. Note to get it to work on your Pixel you must execute the following commands in your &lt;a href=&quot;https://www.chromium.org/chromium-os/poking-around-your-chrome-os-device&quot;&gt;developer shell&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo /sbin/iptables -A INPUT -p tcp --dport &lt;span class=&quot;m&quot;&gt;5556&lt;/span&gt; -j ACCEPT
+
+sudo /sbin/iptables -A INPUT -p tcp --dport &lt;span class=&quot;m&quot;&gt;5558&lt;/span&gt; -j ACCEPT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2&gt;Crouton&lt;/h2&gt;
+
+&lt;p&gt;Crouton is a set of scripts that bundle up into an easy-to-use, Chromium OS-centric chroot generator. Essentially it allows you to sideload popular Linux distributions on your Chromebook. You&amp;#39;ll be able to flip between OS&amp;#39;s with a simple key press or even run Linux applications while using Chrome OS&amp;#39;s window manager. There are tons of great how-to&amp;#39;s on the installation process so I won&amp;#39;t walk through it here. However, there are a couple extra concerns for the Pixel that I will outline.&lt;/p&gt;
+
+&lt;h4&gt;Resolution&lt;/h4&gt;
+
+&lt;p&gt;The hiDPI screen of the Pixel causes issues with certain Linux distributions. In fact there is a specific &lt;a href=&quot;https://github.com/dnschneid/crouton/wiki/Chromebook-Pixel&quot;&gt;section&lt;/a&gt; of the Crouton github dedicated to solutions. I&amp;#39;ve personally found great success with Ubuntu 14.04 and simply setting the scale factor to 2 under display settings. Most apps respond as expected and everything remains ultra crisp.&lt;/p&gt;
+
+&lt;h4&gt;Intel Drivers&lt;/h4&gt;
+
+&lt;p&gt;If you don&amp;#39;t update your Intel drivers the switching back and forth between Chrome OS and Ubuntu can cause screen tears and mouse rendering issues. Simply execute the following commands in your terminal to update the drives.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install software-properties-common python-software-properties
+
+sudo add-apt-repository https://download.01.org/gfx/ubuntu/14.04/main
+
+wget --no-check-certificate https://download.01.org/gfx/RPM-GPG-KEY-ilg -O - &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sudo apt-key add -
+
+wget --no-check-certificate https://download.01.org/gfx/RPM-GPG-KEY-ilg-2 -O - &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; sudo apt-key add -
+
+sudo apt-get update
+
+sudo apt-get upgrade&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;Touchpad Drivers&lt;/h4&gt;
+
+&lt;p&gt;The default synaptic drivers that come with Ubuntu work well enough but I prefer the X11 ChromiumOS drivers ported to Linux. Execute the following commands to install the drivers.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo add-apt-repository ppa:hugegreenbug/cmt
+
+sudo apt-get update
+
+sudo apt-get install -y libevdevc libgestures xf86-input-cmt
+
+sudo mv /usr/share/X11/xorg.conf.d/50-synaptics.conf /usr/share/X11/xorg.conf.d/50-synaptics.conf.old
+
+sudo cp /usr/share/xf86-input-cmt/50-touchpad-cmt-&amp;lt;model&amp;gt;.conf /usr/share/X11/xorg.conf.d/&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h4&gt;Drive&lt;/h4&gt;
+
+&lt;p&gt;Chromebooks typically come with a significant amount of Google Drive space. Using this space from Crouton can be a bit of a pain as there is not an easy way to mount your drive as a normal directory. To make your drive somewhat more useable from Linux is an aptly named tool called &lt;a href=&quot;https://github.com/odeke-em/drive&quot;&gt;Drive&lt;/a&gt;. This tiny program allows you to pull or push Google Drive files.&lt;/p&gt;
+
+&lt;h2&gt;Tips and Tricks&lt;/h2&gt;
+
+&lt;h4&gt;Crouton Backup&lt;/h4&gt;
+
+&lt;p&gt;Crouton has a built in command to allow backups. As mentioned earlier, most Chromebooks come with a ton of free Google Drive space. I have been storing my backups with great success on Drive. Uploads were fast and painless using the default Files app on Chrome OS.&lt;/p&gt;
+
+&lt;h4&gt;Chrome-OS APK&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/vladikoff/chromeos-apk&quot;&gt;Chrome-os apk&lt;/a&gt; is a great little Node tool to package apk&amp;#39;s into extensions that can be run in Chrome. I have tested a handful of Android applications with great success. With the Pixel&amp;#39;s touch screen, apps are extremely easy to use and run extremely smooth. Don&amp;#39;t forget to add the &amp;#39;--tablet&amp;#39; parameter when using the tool.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Duplicator I3</title>

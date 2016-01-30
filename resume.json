@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Gary Roumanis",
+    "label": "Software Development Engineer",
+    "picture": "http://garyroumanis.com/public/images/me.jpg",
+    "email": "me@garyroumanis.com",
+    "phone": "(425) 615-0163",
+    "website": "http://garyroumanis.com",
+    "summary": "I’m a passionate engineer with an eye for detail. I leverage my technical skills to create breakthrough products and experiences.",
+    "location": {
+      "address": "320 East Pine #625",
+      "postalCode": "98122",
+      "city": "Seattle",
+      "countryCode": "USA",
+      "region": "Washington"
+    },
+    "profiles": []
+  },
+  "work": [{
+    "company": "Google",
+    "position": "Software Development Engineer",
+    "website": "http://Google.com",
+    "startDate": "2015-04-15",
+    "summary": "Help design and develop the next generation of DoubleClick Search frontend infrastructure."
+  }, {
+    "company": "Microsoft",
+    "position": "Software Development Engineer",
+    "website": "http://Microsoft.com",
+    "startDate": "2013-12-01",
+    "endDate": "2015-03-25",
+    "summary": "Develop complete designs that solve classes of problems, enabling groups of components, and satisfying business, customer, engineering and operational requirements. Key projects included a near real time, streaming, log processing service."
+  }, {
+    "company": "Microsoft",
+    "position": "Program Manager",
+    "website": "http://Microsoft.com",
+    "startDate": "2012-10-01",
+    "endDate": "2013-12-01",
+    "summary": "Defined and managed the scope of various projects, such as Product Listings and ads in Window’s Search Charm. Specified requirements, conducted usability studies, triaged issues and assigned them to engineering teams."
+  }, {
+    "company": "Microsoft",
+    "position": "Program Manager Intern",
+    "website": "http://Microsoft.com",
+    "startDate": "2011-04-01",
+    "endDate": "2011-08-01",
+    "summary": "Wrote functional specifications for multiple projects including a prototype which allowed for the display of various coupon advertisements within the paid search workflow of Bing. Projects spanned multiple verticals of the Online Service Department, requiring collaboration with various subgroups."
+  }, {
+    "company": "McGill",
+    "position": "NSERC Undergraduate Student Research",
+    "website": "http://McGill.ca",
+    "startDate": "2010-04-25",
+    "endDate": "2010-09-01",
+    "summary": "Designed a framework for harnessing the computing power of humans to solve Multiple Sequence Alignment problems. Application front-end was developed in Flash Actionscript 3 while the back-end used Java and MySql. Available at phylo.cs.mcgill.ca.",
+    "highlights": [
+      "Project received 1st place in the field of Mathematics and Computer Science at the 6th annual McGill University Undergraduate Research Conference."
+    ]
+  }],
+  "education": [{
+    "institution": "McGill University",
+    "area": "Joint honours in Computer Science and Mathematics",
+    "studyType": "Bachelor",
+    "startDate": "2008-09-01",
+    "endDate": "2012-04-25"
+  }],
+  "awards": [{
+    "title": "//oneweek Company Hackathon - Winner",
+    "date": "2014",
+    "awarder": "Microsoft",
+    "summary": "Created an eye controlled wheelchair. The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair"
+  }, {
+    "title": "Intern App Competition - Runner Up",
+    "date": "2011",
+    "awarder": "Microsoft",
+    "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app.The app provides an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app also boasts Mango support, allowing for background audio playback"
+  }],
+  "publications": [{
+    "name": "A portable parallel implementation of the lrs vertex enumeration code",
+    "publisher": "Combinatorial Optimization and Applications",
+    "releaseDate": "2013-12-12",
+    "website": "http://link.springer.com/chapter/10.1007%2F978-3-319-03780-6_36"
+  }, {
+    "name": "Phylo: A Citizen Science Approach for Improving Multiple Sequence Alignment",
+    "publisher": "PLoS ONE",
+    "releaseDate": "2012-03-07",
+    "website": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031362"
+  }],
+  "skills": [{
+    "name": "Languages",
+    "keywords": [
+      "Dart",
+      "Javascript",
+      "Java",
+      "C#",
+      "C++",
+      "LaTeX"
+    ]
+  }, {
+    "name": "Frameworks / Applications",
+    "keywords": [
+      "Angular",
+      "Ember",
+      "Polymer",
+      "Silverlight",
+      "Elasticsearch",
+      "Apache Kafka",
+      "Apache Zookeeper"
+    ]
+  }],
+  "references": [{
+    "reference": "Available upon request"
+  }]
+}

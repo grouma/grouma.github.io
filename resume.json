@@ -19,7 +19,11 @@
         "network": "LinkedIn",
         "username": "garyroumanis",
         "url": "https://www.linkedin.com/in/garyroumanis/"
-
+      },
+      {
+        "network": "GitHub",
+        "username": "grouma",
+        "url": "https://github.com/grouma"
       }
     ]
   },

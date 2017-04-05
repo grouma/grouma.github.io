@@ -8,20 +8,28 @@
     "website": "http://garyroumanis.com",
     "summary": "I’m a passionate engineer with an eye for detail. I leverage my technical skills to create breakthrough products and experiences.",
     "location": {
-      "address": "320 East Pine #625",
-      "postalCode": "98122",
+      "address": "1321 Seneca Street #904",
+      "postalCode": "98101",
       "city": "Seattle",
       "countryCode": "USA",
       "region": "Washington"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "garyroumanis",
+        "url": "https://www.linkedin.com/in/garyroumanis/"
+
+      }
+    ]
   },
-  "work": [{
+  "work": [
+   {
     "company": "Google",
     "position": "Software Development Engineer",
     "website": "http://Google.com",
     "startDate": "2015-04-15",
-    "summary": "Help design and develop the next generation of DoubleClick Search frontend infrastructure."
+    "summary": "Initially was the tech lead for the next generation of the DoubleClick Search frontend infrastructure. Work involved designing and implementing new UIs with Angular, Dart, GWT and a custom declaritive form framework called ESS. Currently working on the Dart language team helping to build infrastructure and tools specifically for the web."
   }, {
     "company": "Microsoft",
     "position": "Software Development Engineer",
@@ -63,12 +71,12 @@
   }],
   "awards": [{
     "title": "//oneweek Company Hackathon - Winner",
-    "date": "2014",
+    "date": "2014-08-01",
     "awarder": "Microsoft",
     "summary": "Created an eye controlled wheelchair. The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair"
   }, {
     "title": "Intern App Competition - Runner Up",
-    "date": "2011",
+    "date": "2011-07-01",
     "awarder": "Microsoft",
     "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app.The app provides an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app also boasts Mango support, allowing for background audio playback"
   }],
@@ -106,6 +114,7 @@
     ]
   }],
   "references": [{
+    "name": "",
     "reference": "Available upon request"
   }]
 }

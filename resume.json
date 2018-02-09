@@ -54,7 +54,7 @@
     "website": "http://McGill.ca",
     "startDate": "2010-04-25",
     "endDate": "2010-09-01",
-    "summary": "The lrslib library is a reverse search algorithm for vertex enumeration/convex hull problems. I adapted the synchronous lrslib library to take advantage of multiple processors/cores. Application was developed in C++ and made use of the free boost library. Source code available at www.cgm.cs.mcgill.ca/∼avis/lrs.html."
+    "summary": "The lrslib library is a reverse search algorithm for vertex enumeration/convex hull problems. I adapted the synchronous lrslib library to take advantage of multiple processors/cores. Application was developed in C++ and made use of the free boost library. Source code available [here](http://cgm.cs.mcgill.ca/~avis/C/lrs.html)."
   }, {
     "company": "Microsoft",
     "position": "Program Manager Intern",
@@ -68,11 +68,12 @@
     "website": "http://McGill.ca",
     "startDate": "2010-04-25",
     "endDate": "2010-09-01",
-    "summary": "Designed a framework for harnessing the computing power of humans to solve Multiple Sequence Alignment problems. Application front-end was developed in Flash ActionScript 3 while the back-end used Java and MySql. Available at www.phylo.cs.mcgill.ca."
+    "summary": "Designed a framework for harnessing the computing power of humans to solve Multiple Sequence Alignment problems. Application front-end was developed in Flash ActionScript 3 while the back-end used Java and MySql. Available [here](http://phylo.cs.mcgill.ca)."
   }],
   "education": [{
     "institution": "McGill University",
     "area": "Joint honours in Computer Science and Mathematics",
+    "summary": "Joint honours in Computer Science and Mathematics",
     "studyType": "Bachelor",
     "startDate": "2008-09-01",
     "endDate": "2012-04-25"
@@ -86,7 +87,7 @@
     "title": "Intern App Competition - Runner Up",
     "date": "2011-08-14",
     "awarder": "Microsoft",
-    "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app. The app provided an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app had over 50,000 downloads and a 4.5 rating."
+    "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app. The app provided an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app had over 50,000 downloads and a 4.5 star rating."
   }, {
     "title": "Undergraduate Research Competition - Winner",
     "date": "2010-09-01",
@@ -126,9 +127,5 @@
       "Apache Kafka",
       "Apache Zookeeper"
     ]
-  }],
-  "references": [{
-    "name": "",
-    "reference": "Available upon request"
   }]
 }

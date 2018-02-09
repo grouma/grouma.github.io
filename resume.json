@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Gary Roumanis",
-    "label": "Software Development Engineer",
+    "label": "Software Engineer",
     "picture": "http://garyroumanis.com/public/images/me.jpg",
     "email": "me@garyroumanis.com",
     "phone": "(425) 615-0163",
@@ -30,7 +30,7 @@
   "work": [
    {
     "company": "Google",
-    "position": "Software Development Engineer",
+    "position": "Software Engineer",
     "website": "http://Google.com",
     "startDate": "2015-04-15",
     "summary": "Currently working on the Dart language team helping to build infrastructure and tools specifically geared towards the web. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, JavaScript, Bazel, and of course Dart."

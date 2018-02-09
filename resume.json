@@ -73,7 +73,6 @@
   "education": [{
     "institution": "McGill University",
     "area": "Joint honours in Computer Science and Mathematics",
-    "summary": "Joint honours in Computer Science and Mathematics",
     "studyType": "Bachelor",
     "startDate": "2008-09-01",
     "endDate": "2012-04-25"
@@ -127,5 +126,9 @@
       "Apache Kafka",
       "Apache Zookeeper"
     ]
+  }],
+  "references": [{
+       "name": "",
+       "reference": "Available upon request"
   }]
 }

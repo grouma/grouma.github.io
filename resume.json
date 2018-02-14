@@ -33,7 +33,7 @@
     "position": "Software Engineer",
     "website": "http://Google.com",
     "startDate": "2015-04-15",
-    "summary": "Currently working on the Dart language team helping to build infrastructure and tools specifically geared towards the web. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, JavaScript, Bazel, and of course Dart."
+    "summary": "Currently working on the Dart language team helping to build infrastructure and tools with an emphasis towards the web dev cycle. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, JavaScript, Bazel, and of course Dart."
   }, {
     "company": "Microsoft",
     "position": "Software Development Engineer",
@@ -52,8 +52,8 @@
     "company": "McGill",
     "position": "Research Assistant",
     "website": "http://McGill.ca",
-    "startDate": "2010-04-25",
-    "endDate": "2010-09-01",
+    "startDate": "2012-04-25",
+    "endDate": "2012-09-01",
     "summary": "The lrslib library is a reverse search algorithm for vertex enumeration/convex hull problems. I adapted the synchronous lrslib library to take advantage of multiple processors/cores. Application was developed in C++ and made use of the free boost library. Source code available [here](http://cgm.cs.mcgill.ca/~avis/C/lrs.html)."
   }, {
     "company": "Microsoft",
@@ -81,7 +81,7 @@
     "title": "//oneweek Company Hackathon - Winner",
     "date": "2014-07-28",
     "awarder": "Microsoft",
-    "summary": "Created an eye controlled wheelchair. The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair."
+    "summary": "Created an [eye controlled wheelchair](https://blogs.microsoft.com/firehose/2014/07/31/oneweek-hackathon-outcome-as-individual-parts-we-were-good-together-we-were-so-much-better/). The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair."
   }, {
     "title": "Intern App Competition - Runner Up",
     "date": "2011-08-14",
@@ -91,7 +91,7 @@
     "title": "Undergraduate Research Competition - Winner",
     "date": "2010-09-01",
     "awarder": "McGill",
-    "summary": "Received first place in the field of Mathematics and Computer Science for the work on Phylo - a framework for solving Multiple Sequence Alignment problems."
+    "summary": "Received first place in the field of Mathematics and Computer Science for the work on [Phylo](http://phylo.cs.mcgill.ca) - a framework for solving Multiple Sequence Alignment problems."
   }],
   "publications": [{
     "name": "A portable parallel implementation of the lrs vertex enumeration code",
@@ -103,29 +103,6 @@
     "publisher": "PLoS ONE",
     "releaseDate": "2012-03-07",
     "website": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031362"
-  }],
-  "skills": [{
-    "name": "Languages",
-    "keywords": [
-      "Dart",
-      "Javascript",
-      "Java",
-      "C#",
-      "C++",
-      "LaTeX"
-    ]
-  }, {
-    "name": "Frameworks / Tools",
-    "keywords": [
-      "Angular",
-      "Bazel",
-      "Ember",
-      "Polymer",
-      "Silverlight",
-      "Elasticsearch",
-      "Apache Kafka",
-      "Apache Zookeeper"
-    ]
   }],
   "references": [{
        "name": "",

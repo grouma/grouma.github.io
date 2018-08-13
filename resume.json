@@ -2,10 +2,10 @@
   "basics": {
     "name": "Gary Roumanis",
     "label": "Software Engineer",
-    "picture": "http://garyroumanis.com/public/images/me.jpg",
+    "picture": "https://garyroumanis.com/public/images/me.jpg",
     "email": "me@garyroumanis.com",
     "phone": "(425) 615-0163",
-    "website": "http://garyroumanis.com",
+    "website": "https://garyroumanis.com",
     "summary": "I'm a perpetual learner and passionate engineer with an eye for detail. I love solving problems regardless of the domain.",
     "location": {
       "address": "1321 Seneca Street #904",

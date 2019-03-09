@@ -4,12 +4,9 @@
     "label": "Software Engineer",
     "picture": "https://garyroumanis.com/public/images/me.jpg",
     "email": "me@garyroumanis.com",
-    "phone": "(425) 615-0163",
     "website": "https://garyroumanis.com",
     "summary": "I'm a perpetual learner and passionate engineer with an eye for detail. I love solving problems regardless of the domain.",
     "location": {
-      "address": "1321 Seneca Street #904",
-      "postalCode": "98101",
       "city": "Seattle",
       "countryCode": "USA",
       "region": "Washington"
@@ -28,84 +25,101 @@
     ]
   },
   "work": [
-   {
-    "company": "Google",
-    "position": "Software Engineer",
-    "website": "http://Google.com",
-    "startDate": "2015-04-15",
-    "summary": "Currently working on the Dart language team helping to build infrastructure and tools with an emphasis towards the web dev cycle. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, JavaScript, Bazel, and of course Dart."
-  }, {
-    "company": "Microsoft",
-    "position": "Software Development Engineer",
-    "website": "http://Microsoft.com",
-    "startDate": "2013-12-01",
-    "endDate": "2015-03-25",
-    "summary": "Helped develop a near real time, streaming, log processing service along with corresponding monitoring tools and dashboards. Core technologies included C#, Kafka, Zookeeper, Ember and Typescript."
-  }, {
-    "company": "Microsoft",
-    "position": "Program Manager",
-    "website": "http://Microsoft.com",
-    "startDate": "2012-10-01",
-    "endDate": "2013-12-01",
-    "summary": "Defined and managed the scope of various projects, such as Product Listings and Ads in Window’s Search Charm. Specified requirements, conducted usability studies, triaged issues and assigned them to engineering teams."
-  }, {
-    "company": "McGill",
-    "position": "Research Assistant",
-    "website": "http://McGill.ca",
-    "startDate": "2012-04-25",
-    "endDate": "2012-09-01",
-    "summary": "The lrslib library is a reverse search algorithm for vertex enumeration/convex hull problems. I adapted the synchronous lrslib library to take advantage of multiple processors/cores. Application was developed in C++ and made use of the free boost library. Source code available [here](http://cgm.cs.mcgill.ca/~avis/C/lrs.html)."
-  }, {
-    "company": "Microsoft",
-    "position": "Program Manager Intern",
-    "website": "http://Microsoft.com",
-    "startDate": "2011-04-01",
-    "endDate": "2011-08-01",
-    "summary": "Wrote functional specifications for multiple projects including a prototype which allowed for the display of various coupon advertisements within the paid search workflow of Bing."
-  }, {
-    "company": "McGill",
-    "position": "NSERC Undergraduate Student Research",
-    "website": "http://McGill.ca",
-    "startDate": "2010-04-25",
-    "endDate": "2010-09-01",
-    "summary": "Designed a framework for harnessing the computing power of humans to solve Multiple Sequence Alignment problems. Application front-end was developed in Flash ActionScript 3 while the back-end used Java and MySql. Available [here](http://phylo.cs.mcgill.ca)."
-  }],
-  "education": [{
-    "institution": "McGill University",
-    "area": "Joint honours in Computer Science and Mathematics",
-    "studyType": "Bachelor",
-    "startDate": "2008-09-01",
-    "endDate": "2012-04-25"
-  }],
-  "awards": [{
-    "title": "//oneweek Company Hackathon - Winner",
-    "date": "2014-07-28",
-    "awarder": "Microsoft",
-    "summary": "Created an [eye controlled wheelchair](https://blogs.microsoft.com/firehose/2014/07/31/oneweek-hackathon-outcome-as-individual-parts-we-were-good-together-we-were-so-much-better/). The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair."
-  }, {
-    "title": "Intern App Competition - Runner Up",
-    "date": "2011-08-14",
-    "awarder": "Microsoft",
-    "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app. The app provided an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app had over 50,000 downloads and a 4.5 star rating."
-  }, {
-    "title": "Undergraduate Research Competition - Winner",
-    "date": "2010-09-01",
-    "awarder": "McGill",
-    "summary": "Received first place in the field of Mathematics and Computer Science for the work on [Phylo](http://phylo.cs.mcgill.ca) - a framework for solving Multiple Sequence Alignment problems."
-  }],
-  "publications": [{
-    "name": "A portable parallel implementation of the lrs vertex enumeration code",
-    "publisher": "Combinatorial Optimization and Applications",
-    "releaseDate": "2013-12-12",
-    "website": "http://link.springer.com/chapter/10.1007%2F978-3-319-03780-6_36"
-  }, {
-    "name": "Phylo: A Citizen Science Approach for Improving Multiple Sequence Alignment",
-    "publisher": "PLoS ONE",
-    "releaseDate": "2012-03-07",
-    "website": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031362"
-  }],
-  "references": [{
-       "name": "",
-       "reference": "Available upon request"
-  }]
+    {
+      "company": "Google",
+      "position": "Software Engineer",
+      "website": "http://Google.com",
+      "startDate": "2015-04-15",
+      "summary": "Currently working on the Dart language team helping to build infrastructure and tools with an emphasis towards web development. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, Bazel, Flutter and of course Dart."
+    },
+    {
+      "company": "Microsoft",
+      "position": "Software Development Engineer",
+      "website": "http://Microsoft.com",
+      "startDate": "2013-12-01",
+      "endDate": "2015-03-25",
+      "summary": "Helped develop a near real time, streaming, log processing service along with corresponding monitoring tools and dashboards. Core technologies included C#, Kafka, Zookeeper, Ember and Typescript."
+    },
+    {
+      "company": "Microsoft",
+      "position": "Program Manager",
+      "website": "http://Microsoft.com",
+      "startDate": "2012-10-01",
+      "endDate": "2013-12-01",
+      "summary": "Defined and managed the scope of various projects, such as Product Listings and Ads in Window’s Search Charm. Specified requirements, conducted usability studies, triaged issues and assigned them to engineering teams."
+    },
+    {
+      "company": "McGill",
+      "position": "Research Assistant",
+      "website": "http://McGill.ca",
+      "startDate": "2012-04-25",
+      "endDate": "2012-09-01",
+      "summary": "The lrslib library is a reverse search algorithm for vertex enumeration/convex hull problems. I adapted the synchronous lrslib library to take advantage of multiple processors/cores. Application was developed in C++ and made use of the free boost library. Source code available [here](http://cgm.cs.mcgill.ca/~avis/C/lrs.html)."
+    },
+    {
+      "company": "Microsoft",
+      "position": "Program Manager Intern",
+      "website": "http://Microsoft.com",
+      "startDate": "2011-04-01",
+      "endDate": "2011-08-01",
+      "summary": "Wrote functional specifications for multiple projects including a prototype which allowed for the display of various coupon advertisements within the paid search workflow of Bing."
+    },
+    {
+      "company": "McGill",
+      "position": "NSERC Undergraduate Student Research",
+      "website": "http://McGill.ca",
+      "startDate": "2010-04-25",
+      "endDate": "2010-09-01",
+      "summary": "Designed a framework for harnessing the computing power of humans to solve Multiple Sequence Alignment problems. Application front-end was developed in Flash ActionScript 3 while the back-end used Java and MySql. Available [here](http://phylo.cs.mcgill.ca)."
+    }
+  ],
+  "education": [
+    {
+      "institution": "McGill University",
+      "area": "Joint honours in Computer Science and Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2008-09-01",
+      "endDate": "2012-04-25"
+    }
+  ],
+  "awards": [
+    {
+      "title": "//oneweek Company Hackathon - Winner",
+      "date": "2014-07-28",
+      "awarder": "Microsoft",
+      "summary": "Created an [eye controlled wheelchair](https://blogs.microsoft.com/firehose/2014/07/31/oneweek-hackathon-outcome-as-individual-parts-we-were-good-together-we-were-so-much-better/). The hack consisted of four parts, Tobii eye gaze tracking for Windows, an eye gaze \"Joystick\" application, Kinect-based \"Safe Drive\" for obstacle avoidance, and a microcontroller interface to a power wheelchair."
+    },
+    {
+      "title": "Intern App Competition - Runner Up",
+      "date": "2011-08-14",
+      "awarder": "Microsoft",
+      "summary": "In two months of spare time I learned the Silverlight framework and C# to implement a fully featured Windows Phone 7 app. The app provided an internet streaming radio service, offering a simple way for people to share and discover music and playlists. The app had over 50,000 downloads and a 4.5 star rating."
+    },
+    {
+      "title": "Undergraduate Research Competition - Winner",
+      "date": "2010-09-01",
+      "awarder": "McGill",
+      "summary": "Received first place in the field of Mathematics and Computer Science for the work on [Phylo](http://phylo.cs.mcgill.ca) - a framework for solving Multiple Sequence Alignment problems."
+    }
+  ],
+  "publications": [
+    {
+      "name": "A portable parallel implementation of the lrs vertex enumeration code",
+      "publisher": "Combinatorial Optimization and Applications",
+      "releaseDate": "2013-12-12",
+      "website": "http://link.springer.com/chapter/10.1007%2F978-3-319-03780-6_36"
+    },
+    {
+      "name": "Phylo: A Citizen Science Approach for Improving Multiple Sequence Alignment",
+      "publisher": "PLoS ONE",
+      "releaseDate": "2012-03-07",
+      "website": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0031362"
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": "Available upon request"
+    }
+  ]
 }

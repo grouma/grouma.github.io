@@ -27,14 +27,14 @@
   "work": [
     {
       "company": "Google",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer",
       "website": "http://Google.com",
       "startDate": "2015-04-15",
       "summary": "Currently working on the Dart language team helping to build infrastructure and tools with an emphasis towards web development. Previously I was the tech lead for the DoubleClick Search frontend infrastructure. Core technologies include Angular, GWT, Bazel, Flutter and of course Dart."
     },
     {
       "company": "Microsoft",
-      "position": "Software Development Engineer",
+      "position": "Software Development Engineer II",
       "website": "http://Microsoft.com",
       "startDate": "2013-12-01",
       "endDate": "2015-03-25",
